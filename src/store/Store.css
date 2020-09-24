@@ -1,0 +1,98 @@
+.card {
+	display: inline-block !important;
+	text-align:center;
+	height: 300px;
+	margin: 3em !important;
+}	
+
+.media {
+	max-width: 90%;
+	text-align: center;
+	max-height: 80px;
+	display:inline-block;
+	margin-top: 1em !important;
+}
+
+.move-down {
+	margin-top: 2em;
+}
+
+.margin-2 {
+	margin: 2em;
+}
+
+.store-header {
+	text-align: left;
+	margin: 2em;
+}
+
+.card-content {
+	display: block;
+	clear: both;
+	text-align: left;
+}
+
+.center {
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.store-right {
+	float: right;
+	width: 70%;
+}
+
+.item-img {
+	width: 20%;
+	float: left;
+  margin-top: 2em;
+}
+
+.panel {
+	width: 20% !important;
+	margin-top: 2em;
+	font-size: 10px;
+	max-height: 300px;
+	clear: left;
+}
+
+
+.MuiButton-sizeSmall-14 {
+  color: #6277a3 !important;
+}
+
+.MuiButton-outlined-5 {
+    border: 1px solid #6277a3 !important;
+}
+
+
+@media only screen and (max-width: 650px)  {
+  .card {
+		width: 80% !important;
+		height: 250px;
+	}	
+	.media {
+		max-width: 100%;
+		max-height: 100px;
+		/*float: left;*/
+	  margin-top: 2em;
+	}
+
+	.item-img {
+		display: block;
+    clear: both;
+    width: 100%;
+		max-width: 100%;
+		float: left;
+	  margin-top: 2em;
+	}
+	.panel {
+		width: 100% !important;
+		clear: both;
+	}
+
+	.store-right {
+		width: 100%;
+	}
+}

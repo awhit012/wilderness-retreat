@@ -1,0 +1,59 @@
+.help-image  {
+	max-width: 20%;
+	margin-top: 2em;
+	float: left;
+}
+
+.help-right {
+	float: right;
+	width: 80%;
+}
+
+
+.card {
+	width: 18rem;
+}
+
+.timestamp {
+	color: gray;
+	font-size: .8em;
+}
+
+.store-container {
+	margin-bottom: 2em;
+}
+
+.store-header {
+	border: 1px black solid;
+	padding: 1em;
+	border-radius: 4px;
+}
+
+.banner {
+	width: 100vw;
+	margin-top: -12.3em;
+}
+
+button {
+	margin: 0 2em 0 0 !important;
+	font-size: 1.2em !important;
+}
+
+
+@media only screen and (max-width: 650px)  {
+  .help-image {
+    display: block;
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .help-right {
+		width: 100%;
+	}
+
+	.banner {
+		margin-top: 0;
+	}
+}
+

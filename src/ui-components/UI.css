@@ -1,0 +1,43 @@
+.button-container {
+	clear: left;
+	float: left;
+	margin: 1em 0 1em 0;
+	width: 20% !important;
+}
+
+.button-container > button {
+	color:red;
+	width: 100%;
+	font-size: .8em;
+}
+
+.categories-container {
+	position: absolute;
+	right: 4em;
+	margin-bottom: 2em;
+}
+
+.category {
+	margin-left: 1em;
+	height: 2em !important;
+}
+
+.headlineButtonWrapper {
+  display: inline-block;
+}
+
+.headlineButton {
+  background: #fbfbfb;
+  color: #888;
+  font-size: 18px;
+  border: 0;
+  padding-top: 5px;
+  vertical-align: bottom;
+  height: 34px;
+  width: 36px;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+  background: #f3f3f3;
+}

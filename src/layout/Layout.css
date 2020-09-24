@@ -1,0 +1,81 @@
+.tab {
+  padding: 10px !important;
+  color: white !important;
+}
+
+.white {
+  color: white !important;
+}
+
+.Company-Name {
+  height: 50px;
+  display: inline;
+  font-size: 2em;
+  position: relative;
+  top: 4px;
+  color: white;
+}
+
+.App-logo {
+  height: 40px;
+  margin: 10px 1em 1em 1em;
+}
+
+.App-Bar {
+  margin: 1em auto;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: #c2a99a !important;
+}
+
+.disclaimer {
+	margin-left: 20%;
+}
+
+.email-icon-bar {
+  margin: .1em 0 0 .5em;
+  color: #374A91;
+  font-size: 3em !important;
+}
+
+header div span {
+  margin: 0 auto !important;
+}
+
+.email-icon {
+  font-size: 2em !important;
+  margin: 0 10px -10px 10px !important;
+}
+
+.ebook {
+  font-size: 1.5em !important;
+  margin: 15px 10%;
+}
+
+.MuiInputBase-root { 
+  font-size: 1.5em !important;
+}
+
+.MuiFormLabel-root {
+  font-size: 1em !important;
+}
+
+/*.error {
+  color: rgba(255, 0, 0, 0.15) !important;
+}
+
+.noError {
+  color: rgba(55, 74, 145, 0.15) !important;
+}
+*/
+@media only screen and (max-width: 650px)  {
+  .Company-Name {
+    display: none;
+  }
+
+  .tab {
+    font-size: 14px !important;
+  }
+
+}

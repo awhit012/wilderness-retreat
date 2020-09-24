@@ -1,0 +1,26 @@
+.float-right {
+	float: right;
+	width: 70%;
+}
+
+.profile-image {
+	float: none;
+	border: white 1px solid;
+	margin:0;
+	width: 100%;
+}
+
+.container {
+	margin-top: 2em;
+}
+
+.bold {
+	font-weight: bold;
+	font-style: italic;
+}
+
+@media only screen and (min-width: 1000px)  {
+  .profile-image {
+    width: 80%;
+  }
+}
