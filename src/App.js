@@ -5,6 +5,7 @@ import Footer from './layout/Footer';
 import HelpContainer from './help/HelpContainer';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import Shop from './pages/Shop';
 import LifeCoaching from './pages/LifeCoaching';
 import RedPillCoaching from './pages/RedPillCoaching';
 import TraumaCoaching from './pages/TraumaCoaching';
@@ -27,6 +28,7 @@ class App extends Component {
                 <Route exact path="/" component={HelpContainer} />
                 <Route path="/about" component={About} />
                 <Route path="/blog" component={Blog} />
+                <Route path="/shop" component={Shop} />
 
                 <Route path="/life-coaching" component={LifeCoaching} />
                 <Route path="/red-pill-coaching" component={RedPillCoaching} />

@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import './Layout.css';
 import {AppBar, Tabs, Tab} from 'material-ui';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import * as Colors from 'material-ui/styles/colors';
+// import * as Colors from 'material-ui/styles/colors';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import { Link } from 'react-router-dom';
-import Email from '@material-ui/icons/Email';
+// import Email from '@material-ui/icons/Email';
 
 
-import EmailForm from '../email-list/EmailForm';
-import MailchimpSubscribe from "react-mailchimp-subscribe"
+// import EmailForm from '../email-list/EmailForm';
+// import MailchimpSubscribe from "react-mailchimp-subscribe"
 
-const logo = "/images/logo.png";
+const logo = "/images/logo1.png";
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: '#D6C3B5',
+    primary1Color: '#C3873B',
     accent1Color: 'White',
     alternateTextColor: '#6277a3'
   },
@@ -28,8 +28,8 @@ const home =  <span>
                 <span className="Company-Name">VALA DAWN</span>
               </span>
             
-const emailIcon = <Email className="email-icon-bar" />
-const emailUrl = "https://fibroclarity.us18.list-manage.com/subscribe/post?u=ad9a911ff91053e376a7095c6&amp;id=fe6a4a5752"
+// const emailIcon = <Email className="email-icon-bar" />
+// const emailUrl = "https://fibroclarity.us18.list-manage.com/subscribe/post?u=ad9a911ff91053e376a7095c6&amp;id=fe6a4a5752"
 
 class NavBar extends Component {
   constructor(props) {
@@ -59,10 +59,11 @@ class NavBar extends Component {
           <AppBar iconElementLeft={(home)} className="App-Bar">
             <Tabs value={this.state.activeTab}>
 
-              <Tab value="default" onActive={ () => this.handleActive("default") } className="tab" label="Sessions" containerElement={<Link to="/"/>}/>
+              <Tab value="default" onActive={ () => this.handleActive("default") } className="tab" label="Home" containerElement={<Link to="/"/>}/>
               <Tab value="about"   onActive={ () => this.handleActive("about") } className="tab" label="About" containerElement={<Link to="/about"/>}/>
               <Tab value="blog"   onActive={ () => this.handleActive("blog") } className="tab" label="Blog" containerElement={<Link to="/blog"/>}/>
-
+              <Tab value="shop"   onActive={ () => this.handleActive("shop") } className="tab" label="Shop" containerElement={<Link to="/shop"/>}/>
+              
             </Tabs>
           </AppBar>
           {/* <AppBar iconElementLeft={(emailIcon)} className="App-Bar"> */}
