@@ -9,6 +9,10 @@
 	width: 80%;
 }
 
+.map {
+	max-width: 100%;
+}
+
 
 .card {
 	width: 18rem;
@@ -31,7 +35,7 @@
 
 .banner {
 	width: 100vw;
-	margin-top: -12.3em;
+	/*margin-top: -12.3em;*/
 }
 
 button {

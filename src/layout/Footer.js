@@ -24,8 +24,8 @@ function Footer(props) {
         <Toolbar>
           <Typography variant="title">
             {/* <a href="https://www.youtube.com/channel/UCFIvAwDouMS3OjBPU16uF7w" target="_blank" rel="noopener noreferrer"><YouTubeIcon className="email-icon"></YouTubeIcon> YouTube Channel </a> */}
-            <a className="white" href="https://www.instagram.com/valadawn/" target="_blank" rel="noopener noreferrer"><InstagramIcon className="email-icon"></InstagramIcon> Instagram </a>
-            <a className="white" mailto="valadawn@gmail.com"><Email className="email-icon"></Email> valadawn@gmail.com </a>
+            {/* <a className="white" href="https://www.instagram.com/valadawn/" target="_blank" rel="noopener noreferrer"><InstagramIcon className="email-icon"></InstagramIcon> Instagram </a> */}
+            <a className="white" mailto="Dael48daleth@protonmail.com"><Email className="email-icon"></Email> Dael48daleth@protonmail.com </a>
             {/* <a href="https://medium.com/@awhit012" target="_blank" rel="noopener noreferrer"><MenuBookIcon className="email-icon"></MenuBookIcon> Blog </a> */}
 
           </Typography>

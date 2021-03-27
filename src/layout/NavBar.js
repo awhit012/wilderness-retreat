@@ -11,10 +11,10 @@ import { Link } from 'react-router-dom';
 // import EmailForm from '../email-list/EmailForm';
 // import MailchimpSubscribe from "react-mailchimp-subscribe"
 
-const logo = "/images/logo1.png";
+const logo = "/images/logo.png";
 const muiTheme = getMuiTheme({
   palette: {
-    primary1Color: '#C3873B',
+    primary1Color: '#00471E',
     accent1Color: 'White',
     alternateTextColor: '#6277a3'
   },
@@ -24,8 +24,8 @@ const muiTheme = getMuiTheme({
 });
 
 const home =  <span> 
-                <img src={logo} alt="fibroclarity logo" className="App-logo" />
-                <span className="Company-Name">VALA DAWN</span>
+                <img src={logo} alt="logo" className="App-logo" />
+                <span className="Company-Name">Ontario Wilderness Retreat</span>
               </span>
             
 // const emailIcon = <Email className="email-icon-bar" />
@@ -60,25 +60,12 @@ class NavBar extends Component {
             <Tabs value={this.state.activeTab}>
 
               <Tab value="default" onActive={ () => this.handleActive("default") } className="tab" label="Home" containerElement={<Link to="/"/>}/>
-              <Tab value="about"   onActive={ () => this.handleActive("about") } className="tab" label="About" containerElement={<Link to="/about"/>}/>
-              <Tab value="blog"   onActive={ () => this.handleActive("blog") } className="tab" label="Blog" containerElement={<Link to="/blog"/>}/>
-              <Tab value="shop"   onActive={ () => this.handleActive("shop") } className="tab" label="Shop" containerElement={<Link to="/shop"/>}/>
+              <Tab value="guides"   onActive={ () => this.handleActive("guides") } className="tab" label="Guides" containerElement={<Link to="/guides"/>}/>
+              <Tab value="food"   onActive={ () => this.handleActive("food") } className="tab" label="Food" containerElement={<Link to="/food"/>}/>
+              <Tab value="apply"   onActive={ () => this.handleActive("apply") } className="tab" label="Apply" containerElement={<Link to="/apply"/>}/>
               
             </Tabs>
           </AppBar>
-          {/* <AppBar iconElementLeft={(emailIcon)} className="App-Bar"> */}
-          {/*   <span className="ebook">Free Digital Course: Spirituality & Trauma 101 </span> */}
-          {/*   <MailchimpSubscribe */}
-          {/*     url={emailUrl} */}
-          {/*     render={({ subscribe, status, message }) => ( */}
-          {/*       <EmailForm */}
-          {/*         status={status} */}
-          {/*         message={message} */}
-          {/*         onValidated={formData => subscribe(formData)} */}
-          {/*       /> */}
-          {/*     )} */}
-          {/*   /> */}
-          {/* </AppBar> */}
         </span>
       </MuiThemeProvider>
     );

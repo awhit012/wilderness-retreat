@@ -3,7 +3,7 @@ import './App.css';
 import NavBar from './layout/NavBar';
 import Footer from './layout/Footer';
 import HelpContainer from './help/HelpContainer';
-import About from './pages/About';
+import Guides from './pages/Guides';
 import Blog from './pages/Blog';
 import Shop from './pages/Shop';
 import LifeCoaching from './pages/LifeCoaching';
@@ -26,7 +26,7 @@ class App extends Component {
             <NavBar />
               <div className="main-page">
                 <Route exact path="/" component={HelpContainer} />
-                <Route path="/about" component={About} />
+                <Route path="/guides" component={Guides} />
                 <Route path="/blog" component={Blog} />
                 <Route path="/shop" component={Shop} />
 
