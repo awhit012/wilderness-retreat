@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import { Link } from 'react-router-dom';
+import ReactPlayer from "react-player"
 
 import './Help.css';
 const banner = "/images/main.png";
@@ -26,6 +27,12 @@ const HelpContainer = () => {
             <p> 
               <blockquote><em>Shamanic healing, playfulness, full wilderness immersion.</em></blockquote>
             </p> 
+
+            <ReactPlayer
+              className="react-player"
+              url="https://www.youtube.com/watch?v=bgScv7eEpiU"
+            />
+          <hr /> 
 
             <img src={map} alt="map" className="map" />
           <h2>1. Timmins / Mattice</h2>
