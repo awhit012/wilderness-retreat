@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import Modalities from './Modalities';
-import ReactPlayer from "react-player"
 import Button from '@material-ui/core/Button';
 
 import './Guides.css';
