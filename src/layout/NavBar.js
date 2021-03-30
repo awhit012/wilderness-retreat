@@ -25,7 +25,7 @@ const muiTheme = getMuiTheme({
 
 const home =  <span> 
                 <img src={logo} alt="logo" className="App-logo" />
-                <span className="Company-Name">Ontario Wilderness Retreat</span>
+                <span className="Company-Name">Ontario Wilderness Canoeing Retreat</span>
               </span>
             
 // const emailIcon = <Email className="email-icon-bar" />
@@ -62,7 +62,7 @@ class NavBar extends Component {
               <Tab value="default" onActive={ () => this.handleActive("default") } className="tab" label="Home" containerElement={<Link to="/"/>}/>
               <Tab value="guides"   onActive={ () => this.handleActive("guides") } className="tab" label="Guides" containerElement={<Link to="/guides"/>}/>
               <Tab value="food"   onActive={ () => this.handleActive("food") } className="tab" label="Food" containerElement={<Link to="/food"/>}/>
-              <Tab value="apply"   onActive={ () => this.handleActive("apply") } className="tab" label="Apply" containerElement={<Link to="/apply"/>}/>
+              <Tab value="register"   onActive={ () => this.handleActive("register") } className="tab" label="Register" containerElement={<Link to="/register"/>}/>
               
             </Tabs>
           </AppBar>

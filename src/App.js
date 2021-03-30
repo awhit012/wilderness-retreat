@@ -4,12 +4,8 @@ import NavBar from './layout/NavBar';
 import Footer from './layout/Footer';
 import HelpContainer from './help/HelpContainer';
 import Guides from './pages/Guides';
-import Blog from './pages/Blog';
-import Shop from './pages/Shop';
-import LifeCoaching from './pages/LifeCoaching';
-import RedPillCoaching from './pages/RedPillCoaching';
-import TraumaCoaching from './pages/TraumaCoaching';
-import Certifications from './pages/Certifications';
+import Food from './pages/Food';
+import Register from './pages/Register';
 
 
 import {
@@ -27,14 +23,8 @@ class App extends Component {
               <div className="main-page">
                 <Route exact path="/" component={HelpContainer} />
                 <Route path="/guides" component={Guides} />
-                <Route path="/blog" component={Blog} />
-                <Route path="/shop" component={Shop} />
-
-                <Route path="/life-coaching" component={LifeCoaching} />
-                <Route path="/red-pill-coaching" component={RedPillCoaching} />
-                <Route path="/trauma-coaching" component={TraumaCoaching} />
-                <Route path="/certifications" component={Certifications} />
-
+                <Route path="/food" component={Food} />
+                <Route path="/register" component={Register} />
               </div>
             <Footer />
           </div>

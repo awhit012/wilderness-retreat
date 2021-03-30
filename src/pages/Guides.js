@@ -9,9 +9,8 @@ const alex = "/images/alex.png";
 const one = "/images/1.png";
 const two = "/images/2.png";
 const three = "/images/3.png";
-const four = "/images/4.png";
 const five = "/images/5.png";
-const six = "/images/6.png";
+// const six = "/images/6.png";
 const seven = "/images/7.png";
 
 class About extends Component {
@@ -23,7 +22,7 @@ class About extends Component {
       <h2>Wilderness Guide, Psychotherapeutic Counselor, Shaman, Astrologer</h2>
       <img src={dael} alt="Meet Dael" className="map" />
       <p className="container">
-      	Dael was born in the very wilds we will be exploring, right where we begin our journey in Timmins, Ontario, to a homesteading family with eight children.
+      	Dael was born in the very wilds we will be exploring, right where we begin our journey in Timmins, Ontario, to a homesteading family with seven children.
 			</p>
       <p className="container">
         Dael has been taking groups on wilderness excursions for 30 years, and has 25 years of experience in psychotherapeutic counseling and astrology and energertic counseling.
@@ -56,10 +55,16 @@ class About extends Component {
         Alex's journey took him from happy kid, to a serious childhood trauma, and later addiction and chronic physical and mental illness. In his early 30's he went through a life changing healing process which allowed him to create a joyful, peaceful, and healthy life living on the spectacular Lake Atitlan in Guatemala with his lovely wife and partner of 11 years. Along this journey he discovered his mission: to help people heal, connect to their true self, find their calling, and live their best lives.
       </p>
       <p className="container">
-        He has a degree in Anthropology and two previous careers as a chef and a software engineer, and now has three years of experience as a life coach specializing in healing trauma, purging the victim mentality, finding purpose, and following their heart.
+        He has a degree in Anthropology and two previous careers as a chef (see 
+          <a target="_blank" 
+            href="/food"
+            rel="noopener noreferrer">
+            food page
+          </a>
+        ) and a software engineer, and now has three years of experience as a life coach specializing in healing trauma, purging the victim mentality, finding purpose, and following their heart.
       </p>
        <p className="container">
-        Today Alex is grateful for everything he went through as it gives him the tools to show others the way to true health and happiness. He says his journey also has blessed him an unwavering faith, a strong sense of purpose, and a solid foundation of toughness and strength.
+        Today Alex is grateful for everything he went through as it gives him the tools to show others the way to true health and happiness. His journey also has blessed him an unwavering faith, a strong sense of purpose, and a solid foundation of toughness and strength.
       </p>
        <p className="container">
         His work is centered around showing others how to turn their past traumas into their own sources of these same vital qualities.
@@ -88,9 +93,9 @@ class About extends Component {
         <img src={one} alt="Meet Dael" className="map" />
         <img src={two} alt="Meet Dael" className="map" />
         <img src={three} alt="Meet Dael" className="map" />
-        <img src={four} alt="Meet Dael" className="map" />
+        {/* <img src={four} alt="Meet Dael" className="map" /> */}
         <img src={five} alt="Meet Dael" className="map" />
-        <img src={six} alt="Meet Dael" className="map" />
+        {/* <img src={six} alt="Meet Dael" className="map" /> */}
         <img src={seven} alt="Meet Dael" className="map" />
 
       </div>  

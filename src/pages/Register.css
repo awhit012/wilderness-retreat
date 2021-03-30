@@ -1,0 +1,15 @@
+ul {
+	max-width: 50%;
+	text-align: left;
+	margin: 1em 2em;
+	font-size: 2em;	
+}
+
+li {
+	padding: .5em;
+}
+
+p {
+	text-align: left;
+	font-size: 2em;
+}

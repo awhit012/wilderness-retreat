@@ -8,10 +8,10 @@ const one = "/images/one.png"
 const two = "/images/two.png"
 const three = "/images/three.png"
 const four = "/images/four.png"
-const fool = "/images/fool.jpeg"
+const fool = "/images/fool.jpg"
 const letGo = "/images/letting-go.webp"
-const fire = "/images/fire.jpg"
-const complete = "/images/complete.jpg"
+const ceremony = "/images/4.png";
+const complete = "/images/6.png"
 
 
 const HelpContainer = () => {
@@ -21,7 +21,7 @@ const HelpContainer = () => {
       <div className="container">
         <div className="container">
 
-          <h1>A 12 Day Canoe Camping Experience</h1>
+          <h1>A 12 Day Primal Transformational Experience</h1>
             <p> 
               <blockquote><em>Shamanic healing, playfulness, full wilderness immersion.</em></blockquote>
             </p> 
@@ -103,7 +103,7 @@ const HelpContainer = () => {
             </p> 
             <p>As the canoe journey deepens, in the silence and profoundness of the river, islands camping and ceremonies take us further into the inner matrix of our own souls' needs. In the middle of this journey, we now have the greatest opportunity to revisit our outer lives and affect core changes as we return. </p>
           <hr /> 
-          <img src={fire} alt="People around a campfire" className="map" />
+          <img src={ceremony} alt="Dael at a campfire" className="map" />
 
           <h2>4. Completion and Integration</h2>
             <p> 
