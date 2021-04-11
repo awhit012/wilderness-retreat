@@ -22,22 +22,25 @@ class About extends Component {
       <h2>Wilderness Guide, Psychotherapeutic Counselor, Shaman, Astrologer</h2>
       <img src={dael} alt="Meet Dael" className="map" />
       <p className="container">
-      	Dael was born in the very wilds we will be exploring, right where we begin our journey in Timmins, Ontario, to a homesteading family with seven children.
+      	Dael was born in the very wilds we will be exploring, right where we begin our journey in Timmins, Ontario, to a homesteading family with six children.
 			</p>
       <p className="container">
-        Dael has been taking groups on wilderness excursions for 30 years, and has 25 years of experience in psychotherapeutic counseling and astrology and energertic counseling.
+        Dael has been taking groups on wilderness excursions for 30 years, and has 25 years of professional experience in psychotherapeutic counseling along with astrological interpretations for clients all over the world.
       </p>
 			 <p className="container">
-        He has a degree in music education at the University of Toronto, and since then has gone deep into study of the Aboriginal Medicine Wheel, and went on a deep pilgrimage climbing in the Himalayas. He has studied yoga,  ayurveda medicine, and tai chi for 5 years.
+        He has a specialist degree in music education from the University of Toronto (Musbach, 1970), and since then has gone deep into study of the Aboriginal Medicine Wheel. He has also done a core personal pilgrimage climbing at age 66 in the Himalayas. He has studied yoga, Ayurvedic medicine, all sides of western psychological development periods,  Buddhist psychotherapeutic sound healing, and Tai Chi.
       </p>
        <p className="container">
-        Dael spends his glorious summers in the wilderness of his childhood, gathering wild berries and other nutritious foods and selling them in farmers markets in Toronto.  
+        Dael spends his warm northern summers in the Timmins area wilderness of his childhood, harvesting wild blueberries in large quantities and other high potency wild and organic foods, selling them in four farmers markets in Toronto.  
       </p>
        <p className="container">
-        His winters are spent on the sacred Lake Atitlan in Mayan country in Guatemala, where he met our assistant guide, Alex White. 
+        His winters are spent on the powerful and panoramic Lake Atitlan in traditional Mayan communities in Guatemala, where he met our assistant guide, Alex White. 
       </p>
       <p className="container">
-        Dael says, "Basically, I am a wild man whose first natural instinct is to live outdoors. In this moment we need this kind of organic therapy in the pure wilderness to remove the damage from constriction, depression, and anxiety."
+        Dael says, "Basically, I am a wild man whose first natural instinct is to live outdoors and away from the congestion of other human beings. 
+      </p>
+      <p className="container">
+        In this moment we need this kind of deep wilderness immersion to remove the damage and stress, depression, and anxiety created in the last year."
       </p>
       <a target="_blank" 
         href="https://www.goldenkeysastrology.ca"
@@ -48,6 +51,17 @@ class About extends Component {
       </a>
       <hr /> 
 
+      <h2>Some of Dael's previous excursions and events</h2>
+      <div className="container">
+
+        <img src={one} alt="Meet Dael" className="map" />
+        <img src={two} alt="Meet Dael" className="map" />
+        <img src={three} alt="Meet Dael" className="map" />
+        <img src={five} alt="Meet Dael" className="map" />
+        <img src={seven} alt="Meet Dael" className="map" />
+
+      </div>  
+
       <h1>Alex White</h1>
       <h2>Certified Life Coach</h2>
       <img src={alex} alt="Meet Alex" className="map" />
@@ -55,11 +69,11 @@ class About extends Component {
         Alex's journey took him from happy kid, to a serious childhood trauma, and later addiction and chronic physical and mental illness. In his early 30's he went through a life changing healing process which allowed him to create a joyful, peaceful, and healthy life living on the spectacular Lake Atitlan in Guatemala with his lovely wife and partner of 11 years. Along this journey he discovered his mission: to help people heal, connect to their true self, find their calling, and live their best lives.
       </p>
       <p className="container">
-        He has a degree in Anthropology and two previous careers as a chef (see 
+        He has a degree in Anthropology and two previous careers as a chef (see  &nbsp;
           <a target="_blank" 
             href="/food"
             rel="noopener noreferrer">
-            food page
+              food page
           </a>
         ) and a software engineer, and now has three years of experience as a life coach specializing in healing trauma, purging the victim mentality, finding purpose, and following their heart.
       </p>
@@ -87,19 +101,7 @@ class About extends Component {
             Alex's YouTube Channel
         </Button>
       </a>
-      <h2>Some of Dael's previous excursions and events</h2>
-      <div className="container">
-
-        <img src={one} alt="Meet Dael" className="map" />
-        <img src={two} alt="Meet Dael" className="map" />
-        <img src={three} alt="Meet Dael" className="map" />
-        {/* <img src={four} alt="Meet Dael" className="map" /> */}
-        <img src={five} alt="Meet Dael" className="map" />
-        {/* <img src={six} alt="Meet Dael" className="map" /> */}
-        <img src={seven} alt="Meet Dael" className="map" />
-
-      </div>  
-
+      <hr /> 
 
     </div>	
     );

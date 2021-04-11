@@ -29,7 +29,7 @@ class Register extends Component {
 					<li>Psychotherapeutic/ shamanic therapy/ coaching</li>
 				</ul>
 				<p>
-					A non-refundable deposit of 25% of full price necessary to reserve your spot. This includes a preliminary 1 hour personal session via video chat with Dael, as well as the 14 step process documentation. If you are unable to make it do to travel restrictions or an emergency, this deposit can be used to hold your spot in the next excursion.
+					A non-refundable deposit of 25% of full price necessary to reserve your spot. This includes a preliminary 1 hour personal session via video chat with Dael, as well as the 14 step process documentation to fully prepare you psychologically for the journey. If you are unable to make it do to covid travel restrictions or an emergency, this deposit can be used to hold your spot in the next excursion. Under circumstances that we deem have made it too difficult for you to come, we will refund your deposit minus 10% retainer for holding a guarunteed spot for you. Refunds can only be made by the 25th of June. 
 				</p>
 				<p>
 					Early bird registration get's 10% off final price (before June 1) 
@@ -38,10 +38,10 @@ class Register extends Component {
 					Minors under 16 must be accompanied by a guardian. 
 				</p>
 				<p>
-					Accompanied minors under 100 lbs are 1/2 original price. (No stacking discounts.)
+					Accompanied minors under 100 lbs get 50% off the full price. (No stacking discounts.)
 				</p>
 				<p>
-					Dael's son has come on wilderness adventures from the age of two and throughout his adolesence. We're all boyscouts and girlscouts! 
+					Dael's son Michael has come on wilderness adventures from the age of two and throughout his adolesence. We're all boyscouts and girlscouts! 
 				</p>
 				<p>
 					We understand that travel can be difficult for international travelors. We are here to assist you in navigating travel restrictions, including quarantine arrangements if necessary. 

@@ -78,7 +78,7 @@ const HelpContainer = () => {
               Are you ready for the depths of the of the ancient wilderness?
             </p> 
             <p> 
-              Revisiting our childhood is integral in this adventure!
+              Revisiting our childhood is integral in this adventure! We're all boyscouts and girlscouts exploring wide open possibilities of change.
             </p> 
             <p> 
               12 days following  the Missinaibi river creates the ideal time for a reviewing your life, work relationships and the active qualities of your souls need for peace and reflection. The vitality of the group invites each of us to find the deeper meanings in our lives. Group processing of individual journies also help us to witness our lives through each other.
@@ -92,8 +92,11 @@ const HelpContainer = () => {
               Can you release the tenacious hold of your day to day programming?
             </p> 
             <p>Since pure nature has no ego or self-identity, losing yourself and observing all thought patterns allow you to recognize the conditioning and programming from your life that has no more value <em>in this moment</em> of pure wilderness immersion.</p>
-            <p>The first power place, the waterfalls and all sounds from nature, allow you to use the continual emotional release patterns that come from falling water, to remove all distractions and unconscious mind activity. Further, to be in a sweat lodge next to the water falls, praying and sweating in complete darkness and in communion with the entire group has immense therapeutic cleansing power. The power in the lodge recreates our own birth process. In that moment, you and all of us in the group, experience the collective sense of communal rebirth. One tribe, one body, one earth. </p>
-            <p>Dael has run sweat lodges in the United States, Canada, and across Europe. It is the unique combination of the power of falling water, the closeness to the fire, and the richness within the great spiritual traditions of purification. </p>
+            <p>The first power place, the waterfalls and all sounds from nature, allow you to use the continual emotional release patterns that come from falling water, to remove all distractions and unconscious mind activity. 
+            <p>
+              Further, to be in a ceremonial sweat lodge next to the water falls, praying and sweating in complete darkness and in communion with the entire group has immense therapeutic cleansing power. The power in the lodge recreates our own birth process. In that moment, you and all of us in the group, experience the collective sense of communal rebirth. One tribe, one body, one earth. </p>
+            </p>
+            <p>Dael has run sweat lodges in the United States, Canada, and across Europe. It is the unique combination of the power of falling water, the closeness to the fire, and the richness within the great spiritual and psychotherapeutic traditions of purification. </p>
             <img src={letGo} alt="Lao Tzu Quote" className="map" />
           <hr /> 
 
@@ -107,12 +110,12 @@ const HelpContainer = () => {
 
           <h2>4. Completion and Integration</h2>
             <p> 
-              In the final moments we are painfully aware of our love of the depth and beauty of the rivers journey.
+              In the final moments we are profoundly aware of our love of the depth and beauty of the rivers journey.
             </p> 
             <p>
               Can you take this ancient timeless power fully back into your daily lives?
             </p>
-            <p>We're here to help you in this exquisit and delicate transition from the inner world back into the outer.</p>
+            <p>We're here to help you in this exquisite and delicate transition from the inner world back into the outer.</p>
             <p>As simple as this sounds, the aboriginal world that we have been in has been lost in modern society. Now you have to preserve the wisdom of the ancient and the modern together in order to live as a full and complete human being.</p>
             <img src={complete} alt="People around a campfire" className="map" />
 
