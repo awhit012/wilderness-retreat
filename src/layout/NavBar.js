@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 // import EmailForm from '../email-list/EmailForm';
 // import MailchimpSubscribe from "react-mailchimp-subscribe"
 
-const logo = "/images/logo.png";
+const logo = "https://i.imgur.com/FhWIA8T.png";
 const muiTheme = getMuiTheme({
   palette: {
     primary1Color: '#00471E',

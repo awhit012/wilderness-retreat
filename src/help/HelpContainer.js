@@ -2,16 +2,16 @@ import React from 'react';
 import ReactPlayer from "react-player"
 
 import './Help.css';
-const banner = "/images/main.png";
-const map = "/images/map.png"
-const one = "/images/one.png"
-const two = "/images/two.png"
-const three = "/images/three.png"
-const four = "/images/four.png"
-const fool = "/images/fool.jpg"
-const letGo = "/images/letting-go.webp"
-const ceremony = "/images/4.png";
-const complete = "/images/6.png"
+const banner = "https://i.imgur.com/Zz7r6mF.png";
+const map = "https://i.imgur.com/mJ1KuXV.png"
+const one = "https://i.imgur.com/1pLr6Bt.png"
+const two = "https://i.imgur.com/7zgimpQ.png"
+const three = "https://i.imgur.com/3RanyOR.png"
+const four = "https://i.imgur.com/TmBtZ6h.png"
+const fool = "https://i.imgur.com/kWgbmDl.jpg"
+const letGo = "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhackspirit.com%2Fwp-content%2Fuploads%2F2018%2F06%2Fletting-go-quotes.jpg"
+const ceremony = "https://i.imgur.com/lPpzuIe.png";
+const complete = "https://i.imgur.com/AhzdXE7.png"
 
 
 const HelpContainer = () => {
@@ -26,10 +26,10 @@ const HelpContainer = () => {
               <blockquote><em>Shamanic healing, playfulness, full wilderness immersion.</em></blockquote>
             </p> 
 
-            {/* <ReactPlayer */}
-            {/*   className="react-player" */}
-            {/*   url="https://www.youtube.com/watch?v=bgScv7eEpiU" */}
-            {/* /> */}
+            <ReactPlayer
+              className="react-player"
+              url="https://www.youtube.com/watch?v=9Ijgm_u93o4"
+            />
           <hr /> 
 
             <img src={map} alt="map" className="map" />
